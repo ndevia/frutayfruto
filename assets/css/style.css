@@ -20,6 +20,33 @@
     margin-right: 1.25rem;
 }
 
-.menu__item:hover {
+.menu__link--activo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu__link:hover {
     text-decoration: underline;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner__imagen {
+    width: 100%;
+    height: calc(100vh - 72px);
+}
+
+.banner__titulo {
+    color: #FDFDFD;
+    font-family: Pacifico, cursive;
+    font-size: 5.0625;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
