@@ -1,5 +1,5 @@
 # Arquitectura-css
-curso de arquictetura CSS de Alura Latam. 
+curso de arquitectura CSS de Alura Latam. 
 Instructora: Jeanmarie Quijada
 
 
