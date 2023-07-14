@@ -1,7 +1,24 @@
 .rodapie__descripcion {
     display: flex;
     color: #8C8888;
-    font-size: 2rem;
     font-weight: 400;
     margin-left: 5rem;
+}
+
+@media screen and (min-width: 0) {
+    .rodapie__descripcion {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie__descripcion {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .rodapie__descripcion {
+        font-size: 2rem;
+    }
 }
